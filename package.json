@@ -1,7 +1,7 @@
 {
-  "name": "nice-select2",
-  "version": "2.1.0",
-  "description": "A lightweight Vanilla JavaScript plugin that replaces native select elements with customizable dropdowns.",
+  "name": "doyosi-select2",
+  "version": "1.0.0",
+  "description": "A lightweight Vanilla JavaScript plugin that replaces native select elements with customizable dropdowns for doyosi. Cloned from nice-select2.",
   "main": "src/js/nice-select2.js",
   "directories": {
     "doc": "docs"
@@ -9,7 +9,6 @@
   "dependencies": {
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.3",
-    "shx": "^0.3.4"
   },
   "devDependencies": {
     "mini-css-extract-plugin": "^2.4.5",
@@ -21,12 +20,11 @@
   "scripts": {
     "watch": "webpack --watch --progress",
     "dev": "npm run clean && cross-env NODE_ENV=\"development\" webpack",
-    "clean": "shx rm -rf build/static",
     "build": "npm run clean && cross-env NODE_ENV=\"production\" webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bluzky/nice-select2.git"
+    "url": "git+https://github.com/karyazilim/doyosi-select2.git"
   },
   "keywords": [
     "select",
@@ -35,7 +33,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bluzky/nice-select2/issues"
+    "url": "https://github.com/karyazilim/doyosi-select2/issues"
   },
-  "homepage": "https://github.com/bluzky/nice-select2#readme"
+  "homepage": "https://github.com/karyazilim/doyosi-select2#readme"
 }
